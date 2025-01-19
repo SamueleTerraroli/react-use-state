@@ -7,7 +7,7 @@ const Main = () => {
     const [selectedId, setSelectedId] = useState(2)
     return (
         <>
-            <section id="buttons" className="d-flex justify-content-center">
+            <section id="buttons" className="d-flex justify-content-center m-4">
                 {languages.map(item => (
 
                     <Button key={item.id} title={item.title} onSelect={() => setSelectedId(item.id)} />

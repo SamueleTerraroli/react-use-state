@@ -1,6 +1,6 @@
 const Button = ({ title, onSelect }) => {
     return (
-        <button type="button" class="btn btn-primary m-2" onClick={() => onSelect}>{title}</button>
+        <button type="button" className="btn btn-primary m-2" onClick={() => onSelect}>{title}</button>
     )
 }
 
