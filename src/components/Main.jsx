@@ -17,7 +17,7 @@ const Main = () => {
             <section id="description" className="d-flex justify-content-center col-5 mx-auto ">
                 <div className="alert alert-light">
                     <h4>{languages.find(item => item.id == selectedId).title}</h4>
-                    <p>descrizione</p>
+                    <p>{languages.find(item => item.id == selectedId).description}</p>
 
                 </div>
 
